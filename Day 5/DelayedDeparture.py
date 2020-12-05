@@ -158,8 +158,8 @@ def search_for_missing_ID(plane):
         search += 1
     return False
 
-rows, collums = split_entries_up(data)
-puzzle1 = check_for_highest_ID(rows, collums)
-plane = fillPlane(rows, collums)
+rows, columns = split_entries_up(data)
+puzzle1 = check_for_highest_ID(rows, columns)
+plane = fillPlane(rows, columns)
 puzzle2 = search_for_missing_ID(plane)
 print(puzzle1, puzzle2)
