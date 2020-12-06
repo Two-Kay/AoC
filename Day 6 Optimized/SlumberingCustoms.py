@@ -92,7 +92,7 @@ def count_group_ortimized(group=None):
 
 def count_group_andtimized(group=None):
     '''
-    Twokay's more optimized variant of the first puzzle.
+    Twokay's more optimized variant of the second puzzle.
 
     Returns the sum for each letter that has occured for all members in a group
     (not the total numbers of letters).
